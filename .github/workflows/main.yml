@@ -1,0 +1,27 @@
+on:
+  workflow_dispatch:
+  push:
+    paths:
+    - 'AuxBoard/**.kicad_pcb'
+    - 'AuxBoard/**.sch'
+    - '.github/workflows/**'
+    
+jobs:
+  
+  export:
+    runs-on: self-hosted
+    name: export-pdf-artifacts
+    container:
+      image: tburnip/kicad-cli
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Create output folder 
+      run: mkdir output
+    - name: Export PDF of Schematic
+      run:  kicad-cli sch export pdf -o output/AuxBoard.pdf AuxBoard/AuxBoard.kicad_sch
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v1
+      with:
+        name: export-pdf-artifact
+        path: output
