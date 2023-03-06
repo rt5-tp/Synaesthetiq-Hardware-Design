@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -53,8 +53,10 @@
       "Net-(J6-Pin_3)",
       "DOUTMatB",
       "5VMatA",
+      "DOUTMatA",
       "5VMatB",
       "+3.3V",
+      "GND",
       "+5VP",
       "Net-(J11-Pin_1)",
       "unconnected-(U1-Pad8)",
@@ -87,8 +89,8 @@
       "otherItems": false,
       "pads": false,
       "text": false,
-      "tracks": false,
-      "vias": false,
+      "tracks": true,
+      "vias": true,
       "zones": false
     },
     "visible_items": [
