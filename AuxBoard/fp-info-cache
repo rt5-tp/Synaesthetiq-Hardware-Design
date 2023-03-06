@@ -1,4 +1,4 @@
-21453964564819967
+21455642686922825
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88080,6 +88080,13 @@ test point THT pad
 0
 1
 1
+Tom's Parts
+MountingHole_2.75mm_RPI_HAT
+Mounting Hole 2.7mm, no annular
+mounting hole 2.7mm no annular
+0
+0
+0
 Tom's Parts
 PI Header Passthrough
 surface-mounted straight pin header, 2x20, 2.54mm pitch, double rows
