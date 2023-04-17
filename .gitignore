@@ -1,6 +1,7 @@
 AuxBoard/AuxBoard-backups/*
 **/*-backups/*
-.DS_Store
+**/.DS_Store
 **/gerbers*.zip
 
 *.pdf
+
