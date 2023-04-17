@@ -14,6 +14,9 @@ SynaesthetiQ has an Auxillary Board which provides power to both of the matrices
 ### PCB Layout
 ![PCB Layout](./AuxBoardPlacement.png)
 ### Final PCB's
+The most recent PCB for the project.
+![Current PCB](./CurrentAuxBoard.jpg)
+
 Below is two of the eventual three PCBs made for the project.
 ![Final PCB's](./FinalPCBs.png)
 
